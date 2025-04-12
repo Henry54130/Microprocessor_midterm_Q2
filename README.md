@@ -25,5 +25,3 @@
    - 兩段音階**交替播放**。
 3. **中止條件**：
    - **按鈕 1 或按鈕 2** 其中一個被按下時，**停止 LED 顯示與音階播放（步進）**。
-
-[note from here](https://moodle3.ntnu.edu.tw/pluginfile.php/1498264/mod_resource/content/0/%E8%80%83%E9%A1%8C%28%E5%BE%AE%E8%99%95%E7%90%86%E6%A9%9Fax_%E6%9C%9F%E4%B8%AD%E4%BD%9C%E6%A5%AD_%E5%90%AB%E6%8F%90%E7%A4%BA%E8%88%87%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA%29240313_250213.pdf)
