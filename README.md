@@ -9,3 +9,4 @@
 序逐一產生中音 Do 至中音 Fa(前 4 音)、以及中音 So 至高音 Do(後 4 音)，共兩
 段音階彼此交替，直至點擊按鈕 1 或 2 暫停那些步進顯示(即馬達控制)為止，用
 以達成步進聲音控制之功能。(10%)
+[note from](https://moodle3.ntnu.edu.tw/pluginfile.php/1498264/mod_resource/content/0/%E8%80%83%E9%A1%8C%28%E5%BE%AE%E8%99%95%E7%90%86%E6%A9%9Fax_%E6%9C%9F%E4%B8%AD%E4%BD%9C%E6%A5%AD_%E5%90%AB%E6%8F%90%E7%A4%BA%E8%88%87%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA%29240313_250213.pdf)
