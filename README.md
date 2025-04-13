@@ -1,27 +1,36 @@
 # Microprocessor_midterm_Q2
-# 基礎功能改良與擴充設計
 
-## ✅ 一、基礎功能改良：用計時中斷取代空轉時延（10%）
-1. **核心目的**：提升效率與即時性，避免使用 `delay` 類空轉等待。
-2. **方法說明**：
-   - 移除所有非必要的空轉延遲。
-   - 使用「**計時器中斷**」產生**輸出掃描時脈**。
-3. **應用功能**：
-   - 控制 **步進馬達的轉速**（如跑馬燈速度）。
-   - 控制 **馬達換向**。
-   - 控制 **馬達定位**。
-4. **補充說明**：
-   - **按鈕反彈跳處理可繼續使用外部中斷**，不計入本次改良內容。
+# Basic Function Enhancement and Expansion Design
+
+## ✅ I. Basic Function Enhancement: Replace Idle Delay with Timer Interrupt (10%)
+
+**Core Objective:**  
+Enhance efficiency and real-time responsiveness by avoiding the use of idle delays like `delay`.
+
+**Method Description:**  
+- Remove all unnecessary idle delays.  
+- Use **timer interrupts** to generate the scanning clock signal for output.
+
+**Application Features:**  
+- Control the **speed of the stepper motor** (e.g., marquee light speed).  
+- Control **motor direction switching**.  
+- Control **motor positioning**.
+
+**Additional Notes:**  
+Button debounce handling can still use external interrupts and is **not included** in this improvement.
 
 ---
 
-## ✅ 二、擴充功能：步進聲音控制（10%）
-1. **LED 與聲音結合**：
-   - 使用 4 顆 LED 顯示步進狀態（LEDx4）。
-   - 每顆 LED 對應產生一個音符。
-2. **音階設計**：
-   - 第一段：中音 **Do 至 Fa**（4 音）。
-   - 第二段：中音 **So 至高音 Do**（4 音）。
-   - 兩段音階**交替播放**。
-3. **中止條件**：
-   - **按鈕 1 或按鈕 2** 其中一個被按下時，**停止 LED 顯示與音階播放（步進）**。
+## ✅ II. Expansion Function: Step Sound Control (10%)
+
+**Combining LED with Sound:**  
+- Use 4 LEDs to indicate stepping status (`LED x4`).  
+- Each LED corresponds to a musical note.
+
+**Scale Design:**  
+- **Segment 1:** Middle C to F (4 notes)  
+- **Segment 2:** Middle G to High C (4 notes)  
+- The two segments play alternately.
+
+**Termination Condition:**  
+- When **either Button 1 or Button 2** is pressed, stop the LED display and tone playback (stepping).
